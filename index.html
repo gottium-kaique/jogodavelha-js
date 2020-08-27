@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Jogo da velha</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="display">
+    <p class="turn">Vez do jogador: </p>
+    <img src="" height="40">
+  </div>
+  <div class="board">
+    <div id="a1" class="space" move=""></div>
+    <div id="a2" class="space" move=""></div>
+    <div id="a3" class="space" move=""></div>
+
+    <div id="b1" class="space" move=""></div>
+    <div id="b2" class="space" move=""></div>
+    <div id="b3" class="space" move=""></div>
+
+    <div id="c1" class="space" move=""></div>
+    <div id="c2" class="space" move=""></div>
+    <div id="c3" class="space" move=""></div>
+  </div>
+
+  <div class="center">
+    <button onclick="resetHash()">RESETAR JOGO</button>
+  </div>
+
+  <div class="winner center">
+    <h3 class="winner-text"></h3>
+  </div>
+
+  <div class="created-by">
+    <p>Criado por Kaique Araújo</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

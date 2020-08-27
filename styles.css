@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+body {
+  font-family: "Roboto Regular";
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  padding: 12px 20px;
+  background: #00ccaa;
+  border-radius: 8px;
+  font-family: "Roboto";
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.36);
+  margin-top: 20px;
+}
+
+#display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 252px;
+  height: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+img {
+  height: 50px;
+}
+
+.turn {
+  float: left;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.board {
+  width: 252px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.space {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #000;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.created-by {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+  font-weight: bold;
+}
+
+.winner {
+  margin-top: 20px;
+}
+
+::selection {
+  background: #00ccaa;
+}
