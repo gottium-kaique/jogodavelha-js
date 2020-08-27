@@ -13,4 +13,4 @@ que ele havia deixado como desafio.
 
 👤**Kaique Araújo**
 
-<h4>Feito com ♥ HTML, CSS e JavaScript.</h4>
+<h4>Feito com ♥, HTML, CSS e JavaScript.</h4>
